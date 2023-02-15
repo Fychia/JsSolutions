@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100;300;400;600;700&display=swap');
+
+:root 
+{
+  --white: #fefefe;
+  --black: #1e1e1e;
+  --light-blue: #005490;
+}
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html 
+{
+  font-size: 10px;
+}
+
+body 
+{
+  font-family: "M PLUS Code Latin", "Open Sans", sans-serif;
+  background-color: var(--black);
+}
+
+.container 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.counter-div
+{
+  width: 60rem;
+  padding: 3rem;
+  text-align: center;
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 10px;
+}
+
+.counter-div > * 
+{
+  margin: 4rem 4rem;
+  font-size: 4rem;
+}
+
+.count
+{
+  font-size: 6rem;
+}
+
+.buttons-div button
+{
+  margin: 4rem 1rem;
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--light-blue);
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.space
+{
+  margin-right: 1rem;
+}
