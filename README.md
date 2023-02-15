@@ -1,0 +1,2 @@
+# JsSolutions
+Some javascript solutions
