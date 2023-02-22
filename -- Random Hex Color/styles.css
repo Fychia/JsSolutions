@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100;300;400;600;700&display=swap');
+
+:root 
+{
+  --white: #fefefe;
+  --black: #1e1e1e;
+  --light-blue: #005490;
+}
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html 
+{
+  font-size: 10px;
+}
+
+body 
+{
+  font-family: "M PLUS Code Latin", "Open Sans", sans-serif;
+  background-color: var(--black);
+}
+
+.container 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 3rem;
+}
+
+.counter-div
+{
+  width: 60rem;
+  padding: 3rem;
+  text-align: center;
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+
+.checkContainer
+{
+  width: 60rem;
+  padding: 3rem;
+  text-align: center;
+  color: var(--white);
+  border: 10px solid var(--white);
+}
+
+.counter-div > * 
+{
+  margin: 4rem 4rem;
+  font-size: 4rem;
+}
+
+.check-div
+{
+  margin: 4rem 4rem;
+  font-size: 4rem;
+}
+
+.hexColor
+{
+  padding: 1rem;
+  border: 2px solid var(--white);
+  border-radius: 1rem;
+}
+
+/* .checkColor
+{
+  background-color: var(--black);
+
+} */
+
+.buttons-div button
+{
+  margin: 4rem 1rem;
+  padding: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--light-blue);
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.space
+{
+  margin-right: 1rem;
+}
